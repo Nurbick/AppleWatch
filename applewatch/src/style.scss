@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.App{
+  padding: 60px;
+  min-height: 100vh;
+  background: #F4F4F4;
+}
+.container{
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+button{
+  cursor: pointer;
+}

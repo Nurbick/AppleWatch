@@ -1,0 +1,36 @@
+.header{
+  &__logo{
+    cursor: pointer;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+  }
+  &__links{
+    display: flex;
+    column-gap: 54px;
+    justify-content: center;
+    background: #444444;
+    border-radius: 0 8px 8px 0;
+    height: 60px;
+    width: 1076px;
+    align-items: center;
+
+  }
+  &__link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__logo{
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    padding: 23px 64px 17px;
+    height: 60px;
+  }
+}

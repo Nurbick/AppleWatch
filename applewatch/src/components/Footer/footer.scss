@@ -1,0 +1,71 @@
+.footer{
+
+  &__nav{
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    padding: 30px 0 39px 67px;
+    display: flex;
+    column-gap: 50px;
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    &__title{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #0C1014;
+    }
+    &__desc{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 20px;
+      color: #515759;
+      margin: 8px 0 20px;
+    }
+    &__address{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 20px;
+      color: #515759;
+      margin: 8px 0 16px;
+    }
+    &__tel{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 20px;
+      color: #515759;
+      margin-bottom: 8px;
+    }
+    &__email{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 20px;
+      color: #1890FF;
+    }
+    &__icons{
+      display: flex;
+      column-gap: 30px;
+      align-items: center;
+    }
+    &__icon{
+      cursor: pointer;
+      transition: .5s;
+      &:hover{
+        transition: .5s;
+        transform: scale(1.3);
+      }
+    }
+  }
+}
